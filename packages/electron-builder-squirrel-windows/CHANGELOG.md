@@ -1,5 +1,12 @@
 # electron-builder-squirrel-windows
 
+## 22.12.0
+
+### Patch Changes
+
+- Updated dependencies [14974114]
+  - app-builder-lib@22.12.0
+
 ## 22.11.11
 
 ### Patch Changes

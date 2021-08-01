@@ -1,5 +1,11 @@
 # app-builder-lib
 
+## 22.12.0
+
+### Minor Changes
+
+- 14974114: feat(nsis portable): Adding support for unique dir on each portable app launch
+
 ## 22.11.11
 
 ### Patch Changes
