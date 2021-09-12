@@ -10,7 +10,7 @@ import { buildInstaller, convertVersion, SquirrelOptions } from "./squirrelPack"
 //noinspection JSUnusedLocalSymbols
 const __awaiter = require("../util/awaiter")
 
-const SW_VERSION = "1.4.4"
+const SW_VERSION = "1.6.0.0"
 //noinspection SpellCheckingInspection
 const SW_SHA2 = "98e1d81c80d7afc1bcfb37f3b224dc4f761088506b9c28ccd72d1cf8752853ba"
 

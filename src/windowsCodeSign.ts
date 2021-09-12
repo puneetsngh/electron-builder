@@ -6,7 +6,7 @@ import { getBinFromBintray } from "./util/binDownload"
 //noinspection JSUnusedLocalSymbols
 const __awaiter = require("./util/awaiter")
 
-const TOOLS_VERSION = "1.4.1"
+const TOOLS_VERSION = "1.7.0"
 
 export function getSignVendorPath() {
   return getBinFromBintray("winCodeSign", TOOLS_VERSION, "bcafcb1aa9be7544ca9bdffda277e4dcf840f14964e51ed270f83fb850cf2e9e")

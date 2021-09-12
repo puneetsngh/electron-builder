@@ -119,6 +119,6 @@ class DigestTransform extends Transform {
 
   _flush(callback: Function): void {
     const hash = this.digester.digest("hex")
-    callback(hash === this.expected ? null : new Error(`SHA2 checksum mismatch, expected ${this.expected}, got ${hash}`))
+    callback(hash !== this.expected ? null : new Error(`SHA2 checksum mismatch, expected ${this.expected}, got ${hash}`))
   }
 }

@@ -19,7 +19,7 @@ export function downloadFpm(version: string, osAndArch: string): Promise<string>
 
 export function getBinFromBintray(name: string, version: string, sha2?: string): Promise<string> {
   const dirName = `${name}-${version}`
-  return getBin(name, dirName, `https://dl.bintray.com/electron-userland/bin/${dirName}.7z`, sha2)
+  return getBin(name, dirName, `https://github.com/electron-userland/electron-builder-binaries/releases/download/${dirName}/${dirName}.7z`, sha2)
 }
 
 export function getBin(name: string, dirName: string, url: string, sha2?: string): Promise<string> {

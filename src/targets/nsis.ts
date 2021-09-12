@@ -14,7 +14,7 @@ import semver = require("semver")
 //noinspection JSUnusedLocalSymbols
 const __awaiter = require("../util/awaiter")
 
-const NSIS_VERSION = "3.0.1"
+const NSIS_VERSION = "3.0.1.13"
 //noinspection SpellCheckingInspection
 const NSIS_SHA2 = "23280f66c07c923da6f29a3c318377720c8ecd7af4de3755256d1ecf60d07f74"
 
